@@ -190,12 +190,16 @@
               <TextRuns>
                 <TextRun>
                   <Value>HEADER</Value>
-                  <Style />
+                  <Style>
+                    <Color>White</Color>
+                  </Style>
                 </TextRun>
                 <TextRun>
                   <Value>=Parameters!Header.Value</Value>
                   <MarkupType>HTML</MarkupType>
-                  <Style />
+                  <Style>
+                    <Color>White</Color>
+                  </Style>
                 </TextRun>
               </TextRuns>
               <Style>
@@ -204,10 +208,9 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox1</rd:DefaultName>
-          <Top>0.97cm</Top>
-          <Left>7.005cm</Left>
-          <Height>0.6cm</Height>
-          <Width>2.5cm</Width>
+          <Left>8.97889cm</Left>
+          <Height>1.57cm</Height>
+          <Width>7.53111cm</Width>
           <Style>
             <Border>
               <Style>None</Style>
@@ -218,11 +221,27 @@
             <PaddingBottom>2pt</PaddingBottom>
           </Style>
         </Textbox>
+        <Image Name="Image1">
+          <Source>External</Source>
+          <Value>https://www.google.com.br/logos/doodles/2016/childrens-day-2016-brazil-5739205150900224-hp.jpg</Value>
+          <Sizing>FitProportional</Sizing>
+          <Top>0.197cm</Top>
+          <Left>0.3175cm</Left>
+          <Height>2.16661cm</Height>
+          <Width>4.97417cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
       </ReportItems>
       <Style>
         <Border>
           <Style>None</Style>
         </Border>
+        <BackgroundColor>#18355a</BackgroundColor>
       </Style>
     </PageHeader>
     <PageFooter>
